@@ -1,5 +1,0 @@
-T=13s Priority=4 hello + OK
-T=19s Priority=4 dunkyz + MISSPELLED
-T=25s Priority=7 spell + OK
-T=32s Priority=7 hell + OK
-T=35s Priority=4 wpow + MISSPELLED

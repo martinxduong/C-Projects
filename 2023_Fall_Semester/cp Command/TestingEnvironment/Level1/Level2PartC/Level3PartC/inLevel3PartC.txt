@@ -1,2 +1,0 @@
-this is
-inLevel3PartC.txt
