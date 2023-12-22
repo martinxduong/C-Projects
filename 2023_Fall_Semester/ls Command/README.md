@@ -1,7 +1,10 @@
-tuls.c is a C program that allowed me to recreate the ls command in linux.
-  - When running ./tuls with 0 arguments, then the program prints the files and directories in the current working directory.
-  - When running ./tuls with 1 argument, then the program prints the file and directories in the current working directory as well as all other files within the directory tree
-    
+Objective: recreate the ls command in linux. List information about the files in a directory.
+
+Usage:
+- ./tuls : when there are no parameters for the command, the program prints a list of files and directories in the current working directory.
+- ./tuls [directory path] : when a directory path is included with the command, the program prints a list of files in the current working directory and recursively prints the list of files in all directories specified by the included directory path parameter.
+
+
 
 int main(int argc, char **argv)
   - Has the parameter of int argc and char **argv. argc is the number of arguments, and char **argv is pointer to a pointer to an array of arguments
